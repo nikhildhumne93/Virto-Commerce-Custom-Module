@@ -1,0 +1,59 @@
+<div class="blade-static __bottom">
+  <button ng-click="saveChanges()" class="btn" ng-class="{'__disabled': formScope != undefined && formScope.$invalid}" ng-disabled="formScope != undefined && formScope.$invalid">
+    <span>{{ 'platform.commands.create' | translate }}</span>
+  </button>
+</div>
+<div class="blade-content">
+  <div class="blade-inner">
+    <div class="inner-block">
+      <form class="form" name="detailForm">
+        <div ng-init="setForm(detailForm)">
+          <label class="form-label">{{ 'MyEmployeeModule.blades.employee-detail.labels.firstName' | translate }}</label>
+          <div class="form-input">
+            <input ng-model="blade.currentEntity.firstName"
+                   type="text"
+                   placeholder="{{ 'MyEmployeeModule.blades.employee-detail.labels.firstName' | translate }}"
+                   required
+                   focus-on="">
+          </div>
+        </div>
+        <div ng-init="setForm(detailForm)">
+          <label class="form-label">{{ 'MyEmployeeModule.blades.employee-detail.labels.lastName' | translate }}</label>
+          <div class="form-input">
+            <input ng-model="blade.currentEntity.lastName"
+                   type="text"
+                   placeholder="{{ 'MyEmployeeModule.blades.employee-detail.labels.lastName' | translate }}"
+                   required>
+          </div>
+        </div>
+        <div ng-init="setForm(detailForm)">
+          <label class="form-label">{{ 'MyEmployeeModule.blades.employee-detail.labels.age' | translate }}</label>
+          <div class="form-input">
+            <input ng-model="blade.currentEntity.age"
+                   type="number" maxlength="2"
+                   placeholder="{{ 'MyEmployeeModule.blades.employee-detail.labels.age' | translate }}"
+                   required>
+          </div>
+        </div>
+        <div ng-init="setForm(detailForm)">
+          <label class="form-label">{{ 'MyEmployeeModule.blades.employee-detail.labels.gender' | translate }}</label>
+          <div class="form-input">
+            <input ng-model="blade.currentEntity.gender"
+                   placeholder="{{ 'MyEmployeeModule.blades.employee-detail.labels.gender' | translate }}"
+                   required>
+          </div>
+        </div>
+
+        <div ng-init="setForm(detailForm)">
+          <label class="form-label">{{ 'MyEmployeeModule.blades.employee-detail.labels.salary' | translate }}</label>
+          <div class="form-input">
+            <input ng-model="blade.currentEntity.salary"
+                   type="number"
+                   placeholder="{{ 'MyEmployeeModule.blades.employee-detail.labels.salary' | translate }}"
+                   required>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

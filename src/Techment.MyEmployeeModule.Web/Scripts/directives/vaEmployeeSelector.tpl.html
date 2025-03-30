@@ -1,0 +1,14 @@
+<div class="form-input">
+  <ui-select ng-if="context.multiple" multiple ng-model="context.modelValue" ng-disabled="disabled" ng-class="{disabled: isNoChoices}">
+    <ui-select-match placeholder="{{placeholder || 'MyEmployeeModule.directives.employee-selector.placeholder' | translate}}">{{isNoChoices ? ('MyEmployeeModule.directives.employee-selector.loading' | translate) : $item.name}}</ui-select-match>
+    <ui-select-choices repeat="x.id as x in choices | filter: { name: $select.search }" refresh="fetchStores($select)" refresh-delay="0" when-scrolled="fetchNextStores($select)">
+      <span ng-bind-html="x.name | highlight: $select.search" ng-show='!isNoChoices'></span>
+    </ui-select-choices>
+  </ui-select>
+  <ui-select ng-if="!context.multiple" ng-model="context.modelValue" ng-required="context.required" ng-disabled="disabled" ng-class="{disabled: isNoChoices}">
+    <ui-select-match placeholder="{{placeholder || 'MyEmployeeModule.directives.employee-selector.placeholder' | translate}}">{{isNoChoices ? ('MyEmployeeModule.directives.employee-selector.loading' | translate) : $select.selected.name}}</ui-select-match>
+    <ui-select-choices repeat="x.id as x in choices | filter: { name: $select.search }" refresh="fetchStores($select)" refresh-delay="300" when-scrolled="fetchNextStores($select)">
+      <span ng-bind-html="x.name | highlight: $select.search" ng-show='!isNoChoices'></span>
+    </ui-select-choices>
+  </ui-select>
+</div>

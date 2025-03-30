@@ -1,0 +1,85 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{01C9C114-4B96-4C90-8561-0EA81FC88C8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techment.MyEmployeeModule.Web", "src\Techment.MyEmployeeModule.Web\Techment.MyEmployeeModule.Web.csproj", "{AAE7480B-A648-493B-9502-762B42B9D57F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techment.MyEmployeeModule.Data", "src\Techment.MyEmployeeModule.Data\Techment.MyEmployeeModule.Data.csproj", "{084B3BD8-7543-4E7A-8E2B-3DC7DC6D48A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techment.MyEmployeeModule.Core", "src\Techment.MyEmployeeModule.Core\Techment.MyEmployeeModule.Core.csproj", "{E6CA40F5-692F-476D-8F46-C24F118B2B90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techment.MyEmployeeModule.Data.MySql", "src\Techment.MyEmployeeModule.Data.MySql\Techment.MyEmployeeModule.Data.MySql.csproj", "{403194D2-F047-4944-A023-589478820508}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techment.MyEmployeeModule.Data.PostgreSql", "src\Techment.MyEmployeeModule.Data.PostgreSql\Techment.MyEmployeeModule.Data.PostgreSql.csproj", "{9185592F-5F75-42B7-B23A-3628919EFDF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techment.MyEmployeeModule.Data.SqlServer", "src\Techment.MyEmployeeModule.Data.SqlServer\Techment.MyEmployeeModule.Data.SqlServer.csproj", "{E495ECE2-B402-4277-9780-323B203A9805}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8F2E46B1-F803-4677-8199-35236947504A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Techment.MyEmployeeModule.Tests", "tests\Techment.MyEmployeeModule.Tests\Techment.MyEmployeeModule.Tests.csproj", "{29DF9986-F24C-45AC-A441-7BCE86BF83B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D5521BBF-DC31-459F-981E-3D8FB4557F5D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		module.ignore = module.ignore
+		README.md = README.md
+		Techment.MyEmployeeModule.sln.DotSettings = Techment.MyEmployeeModule.sln.DotSettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAE7480B-A648-493B-9502-762B42B9D57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE7480B-A648-493B-9502-762B42B9D57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE7480B-A648-493B-9502-762B42B9D57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE7480B-A648-493B-9502-762B42B9D57F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084B3BD8-7543-4E7A-8E2B-3DC7DC6D48A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084B3BD8-7543-4E7A-8E2B-3DC7DC6D48A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084B3BD8-7543-4E7A-8E2B-3DC7DC6D48A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084B3BD8-7543-4E7A-8E2B-3DC7DC6D48A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6CA40F5-692F-476D-8F46-C24F118B2B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CA40F5-692F-476D-8F46-C24F118B2B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CA40F5-692F-476D-8F46-C24F118B2B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CA40F5-692F-476D-8F46-C24F118B2B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403194D2-F047-4944-A023-589478820508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403194D2-F047-4944-A023-589478820508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403194D2-F047-4944-A023-589478820508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403194D2-F047-4944-A023-589478820508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9185592F-5F75-42B7-B23A-3628919EFDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9185592F-5F75-42B7-B23A-3628919EFDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9185592F-5F75-42B7-B23A-3628919EFDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9185592F-5F75-42B7-B23A-3628919EFDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E495ECE2-B402-4277-9780-323B203A9805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E495ECE2-B402-4277-9780-323B203A9805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E495ECE2-B402-4277-9780-323B203A9805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E495ECE2-B402-4277-9780-323B203A9805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DF9986-F24C-45AC-A441-7BCE86BF83B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DF9986-F24C-45AC-A441-7BCE86BF83B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DF9986-F24C-45AC-A441-7BCE86BF83B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DF9986-F24C-45AC-A441-7BCE86BF83B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAE7480B-A648-493B-9502-762B42B9D57F} = {01C9C114-4B96-4C90-8561-0EA81FC88C8A}
+		{084B3BD8-7543-4E7A-8E2B-3DC7DC6D48A7} = {01C9C114-4B96-4C90-8561-0EA81FC88C8A}
+		{E6CA40F5-692F-476D-8F46-C24F118B2B90} = {01C9C114-4B96-4C90-8561-0EA81FC88C8A}
+		{403194D2-F047-4944-A023-589478820508} = {01C9C114-4B96-4C90-8561-0EA81FC88C8A}
+		{9185592F-5F75-42B7-B23A-3628919EFDF3} = {01C9C114-4B96-4C90-8561-0EA81FC88C8A}
+		{E495ECE2-B402-4277-9780-323B203A9805} = {01C9C114-4B96-4C90-8561-0EA81FC88C8A}
+		{29DF9986-F24C-45AC-A441-7BCE86BF83B5} = {8F2E46B1-F803-4677-8199-35236947504A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC0EECF5-137B-433A-A177-D699757D23A2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,65 @@
+<div class="blade-content __medium-wide">
+  <div class="blade-inner">
+    <div class="inner-block">
+      <form class="form" name="detailForm">
+        <div class="form-group clearfix" ng-init="setForm(detailForm)">
+          <div class="column">
+            <div class="form-group">
+              <label class="form-label">{{ 'MyEmployeeModule.blades.employee-detail.labels.firstName' | translate }}</label>
+              <div class="form-input">
+                <input ng-model="blade.currentEntity.firstName" focus-on required placeholder="{{ 'MyEmployeeModule.blades.employee-detail.labels.firstName' | translate }}">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group clearfix" ng-init="setForm(detailForm)">
+          <div class="column">
+            <div class="form-group">
+              <label class="form-label">{{ 'MyEmployeeModule.blades.employee-detail.labels.lastName' | translate }}</label>
+              <div class="form-input">
+                <input ng-model="blade.currentEntity.lastName" focus-on required placeholder="{{ 'MyEmployeeModule.blades.employee-detail.labels.lastName' | translate }}">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group clearfix" ng-init="setForm(detailForm)">
+          <div class="column">
+            <div class="form-group">
+              <label class="form-label">{{ 'MyEmployeeModule.blades.employee-detail.labels.age' | translate }}</label>
+              <div class="form-input">
+                <input type="number" maxlength="2" ng-model="blade.currentEntity.age" focus-on required placeholder="{{ 'MyEmployeeModule.blades.employee-detail.labels.age' | translate }}">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group clearfix" ng-init="setForm(detailForm)">
+          <div class="column">
+            <div class="form-group">
+              <label class="form-label">{{ 'MyEmployeeModule.blades.employee-detail.labels.gender' | translate }}</label>
+              <div class="form-input">
+                <input ng-model="blade.currentEntity.gender" focus-on required placeholder="{{ 'MyEmployeeModule.blades.employee-detail.labels.gender' | translate }}">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group clearfix" ng-init="setForm(detailForm)">
+          <div class="column">
+            <div class="form-group">
+              <label class="form-label">{{ 'MyEmployeeModule.blades.employee-detail.labels.salary' | translate }}</label>
+              <div class="form-input">
+                <input type="number" ng-model="blade.currentEntity.salary" focus-on required placeholder="{{ 'MyEmployeeModule.blades.employee-detail.labels.salary' | translate }}">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <va-metaform blade="blade" registered-inputs="blade.metaFields" column-count="2"></va-metaform>-->
+        <!--<div class="form-group">
+          <va-widget-container group="storeDetail" blade="blade" data="blade.currentEntity" gridster-opts="{width: 526}"></va-widget-container>
+        </div>-->
+      </form>
+    </div>
+  </div>
+</div>

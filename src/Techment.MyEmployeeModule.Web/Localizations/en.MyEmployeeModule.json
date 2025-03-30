@@ -1,0 +1,70 @@
+{
+  "MyEmployeeModule": {
+    "blades": {
+      "hello-world": {
+        "title": "Hello world blade",
+        "labels": {
+          "no-employee": "You have no employees yet",
+          "firstName": "FirstName",
+          "lastName": "LastName",
+          "gender": "Gender",
+          "salary": "Salary",
+          "age": "Age"
+        }
+      },
+      "new-employee": {
+        "title": "New Employee",
+        "subtitle": "Creating a new employee"
+      },
+      "employee-detail": {
+        "labels": {
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "age": "Age",
+          "salary": "Salary",
+          "gender": "Gender"
+        }
+      }
+    },
+    "directives": {
+      "employee-selector": {
+        "placeholder": "Please select...",
+        "loading": "Loading..."
+      }
+    },
+    "dialogs": {
+      "employee-delete": {
+        "title": "Delete employee",
+        "message": "Are you sure you want to delete this employee?",
+        "buttons": {
+          "cancel": "Cancel",
+          "delete": "Delete"
+        }
+      },
+      "employee-save": {
+        "title": "Save employee",
+        "message": "Are you sure you want to save this employee?",
+        "buttons": {
+          "cancel": "Cancel",
+          "save": "Save"
+        }
+      }
+    }
+
+  },
+  "permissions": {
+    "MyEmployeeModule:access": "Open MyEmployeeModule menu",
+    "MyEmployeeModule:create": "Create MyEmployeeModule related data",
+    "MyEmployeeModule:read": "View MyEmployeeModule related data",
+    "MyEmployeeModule:update": "Update MyEmployeeModule related data",
+    "MyEmployeeModule:delete": "Delete MyEmployeeModule related data"
+  },
+  "settings": {
+    "MyEmployeeModule": {
+      "Enabled": {
+        "title": "MyEmployeeModule Enabled",
+        "description": "MyEmployeeModule Enabled setting"
+      }
+    }
+  }
+}

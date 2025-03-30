@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>Techment.MyEmployeeModule</id>
+  <version>3.800.0</version>
+  <version-tag></version-tag>
+
+  <platformVersion>3.876.0</platformVersion>
+  <dependencies>
+    <!--<dependency id="VirtoCommerce.Core" version="3.800.0" />-->
+  </dependencies>
+
+  <title>Techment MyEmployeeModule module</title>
+  <description>Techment MyEmployeeModule module</description>
+
+  <authors>
+    <author>Nikhil Dhumne</author>
+  </authors>
+  <owners>
+    <owner>Techment</owner>
+  </owners>
+
+  <projectUrl>https://github.com/Techment/vc-module-my-employee-module</projectUrl>
+  <iconUrl>Modules/$(Techment.MyEmployeeModule)/Content/logo.png</iconUrl>
+  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+  <assemblyFile>Techment.MyEmployeeModule.Web.dll</assemblyFile>
+  <moduleType>Techment.MyEmployeeModule.Web.Module, Techment.MyEmployeeModule.Web</moduleType>
+
+  <releaseNotes>First version.</releaseNotes>
+  <copyright>Copyright © 2025 Techment. All rights reserved</copyright>
+  <tags>extension module</tags>
+  <useFullTypeNameInSwagger>false</useFullTypeNameInSwagger>
+</module>
